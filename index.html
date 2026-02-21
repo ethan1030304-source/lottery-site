@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>小翊樂透系統</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎫 小翊樂透系統</h1>
+
+<div class="controls">
+    <button onclick="addTicket()">➕ 新增</button>
+    <button onclick="randomAll()">🎲 隨機全部</button>
+    <button onclick="generateAll()">✨ 生成</button>
+    <button onclick="printPage()">🖨️ 列印PDF</button>
+</div>
+
+<input id="drawDate" placeholder="輸入開獎日期">
+
+<h3>總金額：NT$<span id="total">0</span></h3>
+
+<div id="inputs"></div>
+
+<hr>
+
+<div id="printArea"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
